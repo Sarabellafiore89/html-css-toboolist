@@ -1,0 +1,41 @@
+/*regole generali di pagina*/
+
+body{
+
+    background-color: rgb(188, 199, 209);
+
+}
+
+/*regole header*/
+header {
+
+    background-color: white;
+    padding: 10px 30px;
+}
+
+header>img {
+
+    width: 55px;
+    height: 55px;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+
+.title {
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+
+
+/*regole main section*/
+
+#container {
+    
+
+}
+
+
+
+
