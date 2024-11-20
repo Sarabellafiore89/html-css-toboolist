@@ -1,5 +1,10 @@
 /*regole generali di pagina*/
 
+font{
+
+    font-family:  sans-serif;
+}
+
 body{
 
     background-color: rgb(188, 199, 209);
@@ -33,9 +38,44 @@ header>img {
 
 #container {
     
+    background-color: white;
+    width: 60%;
+    margin:30px auto;
+    padding: 15px 30px;
+    
+
 
 }
 
 
+.button,
+.section-folders{
+    padding: 100px;
+}
+
+ .add-task {
+
+    font-size: small;
+    background-color:rgb(63, 63, 247);
+    color:white;
+    border-radius: 5px;
+    height: 30px;
+    padding: 1px
+    
+    
+    
+}
 
 
+.add-section {
+   
+    font-size: small;
+    background-color: white;
+    color:antiquewhite;
+    border-radius: 5px;
+    padding: 1px;
+    height: 20px;
+    text-align: center;
+    width:20%;
+    
+}
