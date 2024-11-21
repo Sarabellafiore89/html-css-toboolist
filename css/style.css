@@ -1,9 +1,8 @@
 /*regole generali di pagina*/
 
-font{
 
-    font-family:  sans-serif;
-}
+
+
 
 body{
 
@@ -39,43 +38,26 @@ header>img {
 #container {
     
     background-color: white;
-    width: 60%;
-    margin:30px auto;
-    padding: 15px 30px;
-    
+    width: 70%;
+    margin-top: 20px;
+    padding: 15px 50px;
+    margin: 20px auto;
 
 
 }
 
 
-.button,
-.section-folders{
-    padding: 100px;
-}
 
- .add-task {
-
-    font-size: small;
-    background-color:rgb(63, 63, 247);
+.add-task  {
+    background-color: rgba(38, 38, 207, 0.753);
     color:white;
-    border-radius: 5px;
-    height: 30px;
-    padding: 1px
-    
-    
-    
+    padding:10px;
+    border-radius:5px;
+    border:none;
+    height:40px;
 }
 
 
-.add-section {
-   
-    font-size: small;
-    background-color: white;
-    color:antiquewhite;
-    border-radius: 5px;
-    padding: 1px;
-    height: 20px;
-    text-align: center;
-    width:20%;
-    
-}
+
+
+ 
