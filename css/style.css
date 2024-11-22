@@ -4,7 +4,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 
@@ -51,26 +51,84 @@ header>img {
 }
 
 .add {
-    padding:10px;
+    padding: 5px;
     border:none;
     border-radius:5px;
-    height:40px;
-    font-size:20px
+    height:30px;
+    font-size:15px
+    
+    
     
 }
 
+.section{
+    background-color: aliceblue;
+    color: grey;
+}
 
 .task  {
-    background-color: rgba(38, 38, 207, 0.753);
-    color:white;
-       
+    background-color: blue;
+    color: white;
+
 }
 
-.section {
+.section-task::before {
+    content:"\25BC";
+    font-size:16px;
+    margin-right:5px;
     
+}
+
+.testo-grassetto {
+    font-size:20px;
+
+}
+
+.tick::before {
+
+
+        content:"\2713";
+        font-size:10px;
+        color:green;
+        border:2px solid green;
+        border-radius:50%;
+        padding:1px 1px;
+        margin:7px 10px;
+}
+
+    /*label section  */
+    .all-labels {
+        margin-left:10px;
+        font-size:10px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        color: white;
+    }
+.blue-label{
+    background-color: blue;
+
+}
+
+.violet-label{
+    background-color: blueviolet;
+}
+
+.none::before{
+    content:"\2715";
+        font-size:10px;
+        color:red;
+        border:2px solid red;
+        border-radius:50%;
+        padding:1px 1px;
+        margin:7px 10px;
 
 }
 
 
-
+.green-label{
+    background-color: green;
+}
  
+.orange-label{
+    background-color: orange;
+}
