@@ -4,7 +4,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, 
 }
 
 
@@ -34,6 +34,8 @@ header>img {
     font-size: 50px;
     color: black;
     font-weight: bold;
+    line-height: 100%;
+    vertical-align: middle;
 }
 
 
@@ -46,10 +48,14 @@ header>img {
     margin-top: 20px;
     padding: 15px 50px;
     margin: 20px auto;
+   
 
 
 }
 
+.buttons{
+    margin-bottom: 20px;
+}
 .add {
     padding: 5px;
     border:none;
@@ -72,7 +78,7 @@ header>img {
 
 }
 
-.section-task::before {
+.testo-grassetto::before {
     content:"\25BC";
     font-size:16px;
     margin-right:5px;
@@ -81,6 +87,7 @@ header>img {
 
 .testo-grassetto {
     font-size:20px;
+    margin-bottom:20px;
 
 }
 
@@ -97,7 +104,7 @@ header>img {
 }
 
     /*label section  */
-    .all-labels {
+    .all-label {
         margin-left:10px;
         font-size:10px;
         padding: 5px 10px;
@@ -124,11 +131,21 @@ header>img {
 
 }
 
-
+.testo{
+    margin-bottom: 20px;
+}
 .green-label{
     background-color: green;
 }
  
 .orange-label{
     background-color: orange;
+}
+
+.pink-label{
+    background-color: darkorchid;
+}
+
+.lime-label{
+    background-color: limegreen;
 }
